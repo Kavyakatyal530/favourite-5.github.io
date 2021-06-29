@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color:#2D3943;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px: black;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 40px;
+    font-size: 18;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Limelight', cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    align-content: center;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+.links{
+   display: inline;
+   padding-left: 33px;
+   padding-right: 25px;
+   font-family: fantasy;
+   font-size: 20px;
+
+
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    
+
+}
+
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+    top:0px;
+
+}
+
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3{
+    display: inline;
+}
